@@ -3,7 +3,7 @@
 # Requirements: Biopython module
 
 # 1. Create a folder named filtered_fastq in folder with extracted fastq files
-# 2. Run function filter_SNP(file_name, marker_seq, ID)
+# 2. Run function filter_SNP(file_name, marker_seq, presence, ID, allowed_mismatch)
 # 3. Check printed output to see if high percentage of reads are successfully filtered
 
 ########################################## Source code ##########################################
