@@ -11,7 +11,9 @@ Requirements: Python3 and Biopython module
 2. Create an empty folder named filtered_fastq in folder with extracted fastq files.
 
 folder ----|
+
            |---- filtered_fastq 
+           
            |---- fastq files
 
 3. Run function filter_SNP(file_name, marker_seq, presence, ID, allowed_mismatch)
