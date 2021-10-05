@@ -1,8 +1,8 @@
 # SNP_Filtering
 
-# Function to filter fastq reads to obtain reads with a signature sequence
+## Function to filter fastq reads to obtain reads with a signature sequence
 
-## Quick start
+### Quick start
 
 Requirements: Python3 and Biopython module
 
