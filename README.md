@@ -1,10 +1,12 @@
 # SNP_Filtering
 
-## Function to filter fastq reads to obtain reads with a signature sequence
+## Function to filter fastq reads to obtain reads with a unique motif.
+Input: fastq file, motif sequence in string (e.g. "ATGCGGTGT"), presence/ absence, number of mismatches between motif and fastq read allowed
+Output: fastq file with reads containing the motif sequence (if presence == True), otherwise reads without the motif if presence == False
 
 ### Quick start
 
-Requirements: Python3 and Biopython module
+Requirements: Python3, Biopython module, any python IDE (e.g. IDLE/ Spyder)
 
 1. Create a folder with the following inside [1] SNP_filtering.py, [2] a new directory named "filtered_fastq" and [3] fastq files (.fastq format, not .gz)
 
