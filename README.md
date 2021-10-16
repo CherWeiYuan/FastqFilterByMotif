@@ -4,7 +4,7 @@
 Input: fastq file, motif sequence in string (e.g. "ATGCGGTGT"), presence/ absence, number of mismatches between motif and fastq read allowed
 Output: fastq file with reads containing the motif sequence (if presence == True), otherwise reads without the motif if presence == False
 
-### Quick start
+## Quick start
 
 Requirements: Python3, Biopython module, any python IDE (e.g. IDLE/ Spyder)
 
